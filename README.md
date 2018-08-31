@@ -10,3 +10,6 @@ Components used for this build:
 - EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card 
 
 For detailed description, please see my reddit post - https://www.reddit.com/r/hackintosh/comments/8px0ku/success_first_hackintosh_i58500b360gtx1060_6gb/
+
+Or, my x230 repo has detailed steps on how to construct the whole thing - just need to be aware that the kexts and the plist are different. 
+https://github.com/littlegtplr/Hackintosh-X230-macOS
