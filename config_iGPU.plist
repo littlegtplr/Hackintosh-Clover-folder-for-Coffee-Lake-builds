@@ -298,7 +298,7 @@
 				<key>Comment</key>
 				<string>10.13.6+ by PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g32IDw+DpwQAAA==
