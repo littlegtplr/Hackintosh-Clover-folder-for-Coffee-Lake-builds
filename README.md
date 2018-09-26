@@ -1,5 +1,5 @@
 # Kexts-and-plist
-i5-8400 + B360 + GTX 1060 6GB
+i5-8500 + B360 + GTX 1060 6GB
 
 Components used for this build: 
 
