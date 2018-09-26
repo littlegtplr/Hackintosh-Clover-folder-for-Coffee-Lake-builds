@@ -7,7 +7,13 @@ Components used for this build:
 - Gigabyte - B360 AORUS Gaming 3 WIFI ATX LGA1151 Motherboard
 - Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory 
 - Crucial - MX500 500GB 2.5" Solid State Drive 
-- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card (rename config_iGPU.plist to config.plist if you're using iGPU)
+- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card 
+
+26 Sep 2018 Update:
+- Rename config_iGPU.plist to config.plist if you're using iGPU (for example the dGPU is in an RMA...)
+- kexts and drivers were updated to latest
+- The repo *should* be Majove ready, currently awaiting nVidia's driver to test
+- A custom USB SSDT was created in /ACPI/patched. It disables all unused USB ports on the mobo, plus the USB 3 capability of one of the front panel USB ports. If you're not using the exact mobo, or you wish to use the port number patch instead, please don't include 'ACPI' folder in your EFI, and enable the port limit patch, '10.13.6+ by PMHeart', in 'KernelAndKextPatches' in the plist.
 
 For detailed description, please see my reddit post - https://www.reddit.com/r/hackintosh/comments/8px0ku/success_first_hackintosh_i58500b360gtx1060_6gb/
 
