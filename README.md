@@ -15,7 +15,7 @@ Components used for this build:
 - macOS updated to Mojave. 
 - Some small changes to the plist and BIOS, in order to let Mojave recognise UHD630. 
 1. remove 'Devices/Fake ID/IntelGFX' - Mojave recognises UHD630, no need to fake it. 
-2. change 'Graphics/ig-platform-id' to '3E920003' - The id of the UHD630 of i5-8500. Ideally WhateverGrann should take care of this without the need of assigning ig-platform-id, but in my case, possibly due to I'm using a B360 mobo, instead of a Z370 one, the ig-platform-id is necessary. Otherwise Mojave won't see the iGPU. From what I gathered, this isn't the case to Z370 mobos. 
+2. change 'Graphics/ig-platform-id' to '3E920003' - The id of the UHD630 of i5-8500. Ideally WhateverGreen should take care of this without the need of assigning ig-platform-id, but in my case, possibly due to I'm using a B360 mobo, instead of a Z370 one, the ig-platform-id is necessary. Otherwise Mojave won't see the iGPU. 
 3. Make sure to enable iGPU in BIOS. masOS uses iGPU for lots of stuff, for example view jpg files and video playback. Some issues with these might come up if the iGPU is set to auto or disable. 
 
 
