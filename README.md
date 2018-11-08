@@ -12,10 +12,7 @@ Components used for this build:
 
 ### 7 Nov 2018 Update:
 - Jump ship from nVidia to AMD. The plist can stay the same if you're just lazy or if it doesn't give you any issue. The only thing need to change when switching from nVidia to AMD is to tick *off* 'System Parameters/NvidiaWeb', but in my case it boots up without any issue with this option ticked, even with the web driver installed. 
-- macOS updated to Mojave. 
-- Some small changes to the plist and BIOS, in order to let Mojave recognise UHD630. 
-1. remove 'Devices/Fake ID/IntelGFX' - Mojave recognises UHD630, no need to fake it. 
-2. change 'Graphics/ig-platform-id' to '3E920003' - The id of the UHD630 of i5-8500. Ideally WhateverGreen should take care of this without the need of assigning ig-platform-id, but in my case, if no ig-platform-id is set, Mojave just doesn't see the iGPU. 
+- macOS updated to Mojave
 
 ### 26 Sep 2018 Update:
 - Rename config_iGPU.plist to config.plist if you're using iGPU (for example the dGPU is in an RMA...)
