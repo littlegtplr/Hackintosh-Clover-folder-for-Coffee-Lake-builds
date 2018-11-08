@@ -10,9 +10,11 @@ Components used for this build:
 ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
-### 7 Nov 2018 Update:
-- Jump ship from nVidia to AMD. The plist can stay the same if you're just lazy or if it doesn't give you any issue. The only thing need to change when switching from nVidia to AMD is to tick *off* 'System Parameters/NvidiaWeb', but in my case it boots up without any issue with this option ticked, even with the web driver installed. 
+### 9 Nov 2018 Update:
+- Jumped ship from nVidia to AMD. The plist can stay the same if you're just lazy or if it doesn't give you any issue. The only thing need to change when switching from nVidia to AMD is to tick *off* 'System Parameters/NvidiaWeb', but in my case it boots up without any issue with this option ticked, even with the web driver installed. 
 - macOS updated to Mojave
+- 'config.plist/Graphics/ig-platform-id' changed to '0x3E920003' (connectless UHD630) to get native support from Mojave
+- remove igpu plist, currently not yet succeed to get iGPU works on Mojave. Use ig-platform-id '3E9B0007' can boot into Mojave but into black screens on either DVI or HDMI. This can possibly relate to framebuffer but I haven't managed to solve it. If you know how to do this, please share it with me. Cheers. 
 
 ### 26 Sep 2018 Update:
 - Rename config_iGPU.plist to config.plist if you're using iGPU (for example the dGPU is in an RMA...)
