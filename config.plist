@@ -390,7 +390,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x3E7</string>
+		<string>0x67</string>
 		<key>MLB</key>
 		<string></string>
 		<key>ROM</key>
