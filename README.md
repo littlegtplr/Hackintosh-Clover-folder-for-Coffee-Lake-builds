@@ -14,7 +14,8 @@ Components used for this build:
 - updated efi driver to the latest
 - set SIP to disabled (CsrActiveConfig '0x67'), otherwise macOS 10.14.2 would boot into a prohibit sign, possibly due to not being able to load unsigned kexts (see [wiki](https://en.wikipedia.org/wiki/System_Integrity_Protection))
 
-### 10 Dec 2018 updated kext and efi drivers, also cleared some clutters
+### 10 Dec 2018 Update:
+- updated kext and efi drivers, also cleared some clutters
 
 ### 9 Nov 2018 Update:
 - Jumped ship from nVidia to AMD. The plist can stay the same if you're just lazy or if it doesn't give you any issue. The only thing need to change when switching from nVidia to AMD is to tick *off* 'System Parameters/NvidiaWeb', but in my case it boots up without any issue with this option ticked, even with the web driver installed. 
