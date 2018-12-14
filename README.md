@@ -10,6 +10,10 @@ Components used for this build:
 ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+### 14 Dec 2018 Update:
+- updated efi driver to the latest
+- set SIP to disabled (CsrActiveConfig '0x67'), otherwise macOS 10.14.2 would boot into a prohibit sign, possibly due to not being able to load unsigned kexts (see [wiki](https://en.wikipedia.org/wiki/System_Integrity_Protection))
+
 ### 10 Dec 2018 updated kext and efi drivers, also cleared some clutters
 
 ### 9 Nov 2018 Update:
