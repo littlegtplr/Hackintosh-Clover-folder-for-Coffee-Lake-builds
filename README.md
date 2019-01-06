@@ -10,8 +10,13 @@ Components used for this build:
 ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+### 6 Jan 2019 Update:
+- updated efi drivers and kexts to the latest
+- removed '/Graphics/Inject Intel' and '/Graphics/ig-platform-if'
+- updated '/Devices/Properties/PciRoot(0x0)/Pci(0x2,0x0)' and 'AAPL,ig-platform-id', 'framebuffer-patch-enable' and 'framebuffer-stolenmem' (see [vanilla guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake#devices)), otherwise Mojave (10.14.2) would boot into a prohibit sign, -v shows 'unable to allocate runtime area'
+
 ### 14 Dec 2018 Update:
-- updated efi driver to the latest
+- updated efi drivers to the latest
 - set SIP to disabled (CsrActiveConfig '0x67'), otherwise macOS 10.14.2 would boot into a prohibit sign, possibly due to not being able to load unsigned kexts (see [wiki](https://en.wikipedia.org/wiki/System_Integrity_Protection))
 
 ### 10 Dec 2018 Update:
