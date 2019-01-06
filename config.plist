@@ -232,19 +232,41 @@
 	<key>Graphics</key>
 	<dict>
 		<key>Inject</key>
-		<dict>
-			<key>ATI</key>
-			<false/>
-			<key>Intel</key>
-			<true/>
-			<key>NVidia</key>
-			<false/>
-		</dict>
-		<key>NvidiaSingle</key>
 		<false/>
-		<key>ig-platform-id</key>
-		<string>0x3E920003</string>
 	</dict>
+	<key>Devices</key>
+    	<dict>
+        	<key>Audio</key>
+        	<dict>
+            		<key>Inject</key>
+            			<integer>1</integer>
+            		<key>ResetHDA</key>
+            			<true/>
+        	</dict>
+        	<key>Properties</key>
+        	<dict>
+            		<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+            		<dict>
+                		<key>AAPL,ig-platform-id</key>
+                		<data>
+                		AwCSPg==
+                		</data>
+                		<key>framebuffer-patch-enable</key>
+                		<data>
+                		AQAAAA==
+                		</data>
+                		<key>framebuffer-stolenmem</key>
+                		<data>
+                		AAAwAQ==
+                		</data>
+            		</dict>
+        	</dict>
+        	<key>USB</key>
+        	<dict>
+            		<key>FixOwnership</key>
+            		<true/>
+        	</dict>
+    	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
