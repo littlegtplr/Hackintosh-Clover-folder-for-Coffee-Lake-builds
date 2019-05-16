@@ -7,8 +7,7 @@ Components used for this build:
 - Gigabyte - B360 AORUS Gaming 3 WIFI ATX LGA1151 Motherboard
 - Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory 
 - Crucial - MX500 500GB 2.5" Solid State Drive 
-
-~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
+- ~~ EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
 ### 16 May 2019 Update:
