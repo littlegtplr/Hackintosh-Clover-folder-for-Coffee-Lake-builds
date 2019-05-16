@@ -24,8 +24,9 @@ Components used for this build:
    
 - 'AAPL,ig-platform-id' changed from '0300923E' to '0300983E'. Either '0300913E' or '0300923E' will break the CPU PM - idle frequency will never get down to lower than 2GHz. Don't know why. '0300913E' is automatically assigned by macOS if no properties was assigned by the plist (but it breaks CPU PM).
 - changing SMBIOS and adding CPUFriend has negligible effect on performance
-- Geekbench scores
-
+  
+  Geekbench scores
+  
    |  |Single Core| Multi Core|
    |:---|:-----------:|:-----------:|
    |[iMac18,3](https://browser.geekbench.com/v4/cpu/13145840) |5454 | 22299|
