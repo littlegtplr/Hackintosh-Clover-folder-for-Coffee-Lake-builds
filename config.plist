@@ -180,6 +180,24 @@
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AwCYPg==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-stolenmem</key>
+				<data>
+				AAAwAQ==
+				</data>
+			</dict>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -199,6 +217,7 @@
 			<string>\EFI\BOOT\BOOTX64.EFI</string>
 			<string>Preboot</string>
 			<string>Recovery</string>
+			<string>Stash 5</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -226,47 +245,19 @@
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
-		<key>Theme</key>
-		<string>High Sierra</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
 		<key>Inject</key>
-		<false/>
+		<dict>
+			<key>ATI</key>
+			<false/>
+			<key>Intel</key>
+			<false/>
+			<key>NVidia</key>
+			<false/>
+		</dict>
 	</dict>
-	<key>Devices</key>
-    	<dict>
-        	<key>Audio</key>
-        	<dict>
-            		<key>Inject</key>
-            			<integer>1</integer>
-            		<key>ResetHDA</key>
-            			<true/>
-        	</dict>
-        	<key>Properties</key>
-        	<dict>
-            		<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-            		<dict>
-                		<key>AAPL,ig-platform-id</key>
-                		<data>
-                		AwCSPg==
-                		</data>
-                		<key>framebuffer-patch-enable</key>
-                		<data>
-                		AQAAAA==
-                		</data>
-                		<key>framebuffer-stolenmem</key>
-                		<data>
-                		AAAwAQ==
-                		</data>
-            		</dict>
-        	</dict>
-        	<key>USB</key>
-        	<dict>
-            		<key>FixOwnership</key>
-            		<true/>
-        	</dict>
-    	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
@@ -412,26 +403,26 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x067</string>
 		<key>MLB</key>
-		<string></string>
+		<string>C02YWKY6JV3Q</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>02/18/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.0161.B00.1806260901</string>
+		<string>IM191.88Z.F000.B00.1902181222</string>
 		<key>Board-ID</key>
-		<string>Mac-BE088AF8C5EB4FA2</string>
+		<string>Mac-AA95B1DDAB278B95</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string></string>
+		<string>C02925600GULNV9FB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -442,6 +433,8 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>220.250.368.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -457,11 +450,11 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac18,3</string>
+		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string></string>
+		<string>C02YWKY6JV3Q</string>
 		<key>SmUUID</key>
-		<string></string>
+		<string>8EBE6E5C-8582-41B0-93CE-BA40166EC581</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -473,8 +466,6 @@
 		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
-		<key>NvidiaWeb</key>
-		<false/>
 	</dict>
 </dict>
 </plist>
