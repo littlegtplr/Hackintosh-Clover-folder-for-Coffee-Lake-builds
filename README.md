@@ -13,7 +13,11 @@ Components used for this build:
 ### 16 May 2019 Update:
 - macOS updated to 10.14.5
 - updated efi drivers and kexts to the latest
-- SMBIOS changed from iMac18,3 to iMac19,1 for better power management
+- SMBIOS changed from iMac18,3 to iMac19,1 for better power management (PM), idle frequency increased to 1.3GHz from 0.8GHz (see below)
+- added CPUFriend.kext and CPUFriendDataProvider to decrease the idle frequency back to 0.8GHz, by changing four values in the frequency vector of iMac19,1 (Mac-AA95B1DDAB278B95.plist) from 0D to 08. Credit goes to [TheRacerMaster
+](https://www.reddit.com/r/hackintosh/comments/9uh1wz/laptop_idles_at_a_higher_frequency_as_compared_to/) and [acidanthera/CPUFriend](https://github.com/acidanthera/CPUFriend)
+- 'AAPL,ig-platform-id' changed from '0300923E' to '0300983E'. Either '0300913E' or '0300923E' will break the CPU PM - idle frequency will never get down to lower than 2GHz. Don't know why. '0300913E' is assigned if no properties assigned (but it breaks CPU PM).
+- Changing SMBIOS and adding CPUFriend did not affect performance. benchmark history pending
 
 
 ### 6 Jan 2019 Update:
