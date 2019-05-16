@@ -20,11 +20,11 @@ Components used for this build:
 - changing SMBIOS and adding CPUFriend has negligible effect on performance
 - geekbench scores
 
-|  |Single Core| Multi Core|
-|--|-----------|-----------|
-|[iMac18,3](https://browser.geekbench.com/v4/cpu/13145840) |5454 | 22299|
-|[iMac19,1](https://browser.geekbench.com/v4/cpu/13145531) |5432 | 22228|
-|[iMac19,1 w/ CPUFriend](https://browser.geekbench.com/v4/cpu/13148422) |5515 | 22000|
+   |  |Single Core| Multi Core|
+   |--|-----------|-----------|
+   |[iMac18,3](https://browser.geekbench.com/v4/cpu/13145840) |5454 | 22299|
+   |[iMac19,1](https://browser.geekbench.com/v4/cpu/13145531) |5432 | 22228|
+   |[iMac19,1 w/ CPUFriend](https://browser.geekbench.com/v4/cpu/13148422) |5515 | 22000|
 
 
 ### 6 Jan 2019 Update:
