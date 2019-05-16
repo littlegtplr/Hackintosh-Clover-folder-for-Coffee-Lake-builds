@@ -10,6 +10,12 @@ Components used for this build:
 ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+### 16 May 2019 Update:
+- macOS updated to 10.14.5
+- updated efi drivers and kexts to the latest
+- SMBIOS changed from iMac18,3 to iMac19,1 for better power management
+
+
 ### 6 Jan 2019 Update:
 - updated efi drivers and kexts to the latest
 - removed '/Graphics/Inject Intel' and '/Graphics/ig-platform-if'
