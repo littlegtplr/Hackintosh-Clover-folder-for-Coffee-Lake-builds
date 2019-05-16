@@ -17,8 +17,14 @@ Components used for this build:
 - added CPUFriend.kext and CPUFriendDataProvider to decrease the idle frequency back to 0.8GHz, by changing the four values in the frequency vector of iMac19,1 (Mac-AA95B1DDAB278B95.plist) from 0D to 08. Credit goes to [TheRacerMaster
 ](https://www.reddit.com/r/hackintosh/comments/9uh1wz/laptop_idles_at_a_higher_frequency_as_compared_to/) and [acidanthera/CPUFriend](https://github.com/acidanthera/CPUFriend)
 - 'AAPL,ig-platform-id' changed from '0300923E' to '0300983E'. Either '0300913E' or '0300923E' will break the CPU PM - idle frequency will never get down to lower than 2GHz. Don't know why. '0300913E' is automatically assigned by macOS if no properties was assigned by the plist (but it breaks CPU PM).
-- Changing SMBIOS and adding CPUFriend has negligible effect on performance
-..- geekbench [iMac18,3](https://browser.geekbench.com/v4/cpu/13145840), [iMac19,1](https://browser.geekbench.com/v4/cpu/13145531), [iMac19,1 w/ CPUFriend](https://browser.geekbench.com/v4/cpu/13148422)
+- changing SMBIOS and adding CPUFriend has negligible effect on performance
+- geekbench scores
+
+   ||Single Core| Multi Core|
+   --------------------------
+   |[iMac18,3](https://browser.geekbench.com/v4/cpu/13145840)|5454| 22299|
+   |[iMac19,1](https://browser.geekbench.com/v4/cpu/13145531)|5432| 22228|
+   |[iMac19,1 w/ CPUFriend](https://browser.geekbench.com/v4/cpu/13148422|5515| 22000|
 
 
 ### 6 Jan 2019 Update:
