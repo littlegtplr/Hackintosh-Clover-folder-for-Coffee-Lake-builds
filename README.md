@@ -22,7 +22,7 @@ Components used for this build:
    |:--------:|:------:|:------:|
    |<img width="200" src="https://github.com/littlegtplr/Hackintosh-Clover-folder-for-Coffee-Lake-builds/blob/master/img/Screenshot%202019-05-15%20at%2020.08.17.png">| <img width="200" src="https://github.com/littlegtplr/Hackintosh-Clover-folder-for-Coffee-Lake-builds/blob/master/img/Screenshot%202019-05-15%20at%2018.12.22.png">| <img width="200" src="https://github.com/littlegtplr/Hackintosh-Clover-folder-for-Coffee-Lake-builds/blob/master/img/Screenshot%202019-05-16%20at%2000.50.44.png"> |
    
-- 'AAPL,ig-platform-id' changed from '0300923E' to '0300983E'. Either '0300913E' or '0300923E' will break the CPU PM - idle frequency will never get down to lower than 2GHz. Don't know why. '0300913E' is automatically assigned by macOS if no properties was assigned by the plist (but it breaks CPU PM).
+- 'AAPL,ig-platform-id' changed from '0300923E' to '0300983E'. Either '0300913E' or '0300923E' will break the CPU PM - idle frequency will never get down to lower than 2GHz. Don't know why. '0300913E' is automatically assigned by macOS/WhateverGreen (but it breaks CPU PM) if no properties was assigned by the plist.
 - changing SMBIOS and adding CPUFriend has negligible effect on performance
   
   Geekbench scores
