@@ -10,6 +10,13 @@ Components used for this build:
 - ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+### 29 July 2019 Update:
+- macOS updated to 10.14.6
+- kexts updated to latest
+- Clover Bootloader updated to r5018, driver folder structure changed 
+  - removed OsxFatBinaryDrv-64.efi
+  - can't boot with OsxAptioFix3Drv.efi - couldn't allocate runtime area, use AptioMemoryFix-64.efi instead
+
 ### 16 May 2019 Update:
 - macOS updated to 10.14.5
 - updated efi drivers and kexts to the latest
