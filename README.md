@@ -23,7 +23,6 @@ Components used for this build:
 ### macOS updated to 10.15 Catalina
 - drivers and kexts are updated to the latest
 - An EC device SSDT (SSDT-EC-USBX.aml) was added to EFI/OC/ACPI. Whether you need this, just use [USBMap](https://github.com/corpnewt/USBMap) to check whether your USB power setting is in place. If so then no further action is needed. 
-- '-lilubetaall' has been added to config.plist, NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args, for the workaround of lilu doesn't load on Catalina, awaiting an update from lilu.kext. 
 - The macOS update was done by using System Preference, rebooted once into the installer, then the next reboot is to Catalina. No issues encountered. 
 
 ## 29 July 2019 Update:
