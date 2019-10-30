@@ -10,6 +10,11 @@ Components used for this build:
 - ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+## 30 October 2019 Update:
+- macOS updated to 10.15.1
+- OpenCore updated to 0.5.2
+- kexts and drivers updated to the latest
+
 ## 10 October 2019 Update:
 ### Bootloader changed from Clover to OpenCore 0.51
 - BIOS DVMT changed from 64MB to 32MB, otherwise OpenCore won't boot
