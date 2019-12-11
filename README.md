@@ -10,6 +10,11 @@ Components used for this build:
 - ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+## 11 December 2019 Update:
+- macOS updated to 10.15.2
+- OpenCore updated to 0.5.3 December 2019 build
+- kext and driver updated to lastest
+
 ## 30 October 2019 Update:
 - macOS updated to 10.15.1
 - OpenCore updated to 0.5.2
