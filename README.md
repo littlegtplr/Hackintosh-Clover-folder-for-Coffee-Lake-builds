@@ -10,6 +10,13 @@ Components used for this build:
 - ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+## 14 January 2020 Update:
+- kext and drivers updated to the latest
+- deleted 'UsbKbDxe.efi' due to bluetooth keyboard doesn't need this
+- added EFI/OC/config.plist: MISC/Security/AllowSetDefault and set to 'TRUE'. This functionality enables assigning default booting partition from the booting picker, by either 'Ctrl + index' or 'Ctrl + Enter' if the chooser is used (use up and down arrow to activate it)
+- EFI/OC/config.plist: MISC/Boot/Timeout set to '5' instead of '60', due to default booting partition is working properly
+- Optional: if not doing multi-booting, then MISC/Boot/ShowPicker can be set to 'FALSE' to skip the picker
+
 ## 11 December 2019 Update:
 - macOS updated to 10.15.2
 - OpenCore updated to 0.5.3 December 2019 build
