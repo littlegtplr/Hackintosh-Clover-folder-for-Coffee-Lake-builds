@@ -12,6 +12,7 @@ Components used for this build:
 
 ## 14 January 2020 Update:
 - kext and drivers updated to the latest
+- OpenCore updated to 0.5.4
 - deleted 'UsbKbDxe.efi' due to bluetooth keyboard doesn't need this
 - added EFI/OC/config.plist: MISC/Security/AllowSetDefault and set to 'TRUE'. This functionality enables assigning default booting partition from the booting picker, by either 'Ctrl + index' or 'Ctrl + Enter' if the chooser is used (use up and down arrow to activate it)
 - EFI/OC/config.plist: MISC/Boot/Timeout set to '5' instead of '60', due to default booting partition is working properly
