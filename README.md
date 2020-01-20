@@ -14,6 +14,7 @@ Components used for this build:
 - kext and drivers updated to the latest
 - OpenCore updated to 0.5.4
 - deleted 'UsbKbDxe.efi' due to my bluetooth keyboard doesn't need this
+- deleted 'VirtualSmc.efi' as this has been implemented as part of OC 0.5.4 so no longer needed as an efi driver
 - added EFI/OC/config.plist: MISC/Security/AllowSetDefault and set to 'TRUE'. This functionality enables assigning default booting partition from the booting picker, by either 'Ctrl + index' or 'Ctrl + Enter' if the chooser is used (use up and down arrow to activate it)
 - EFI/OC/config.plist: MISC/Boot/Timeout set to '5' instead of '60', due to default booting partition is working properly
 - Optional: if not doing multi-booting, then MISC/Boot/ShowPicker can be set to 'FALSE' to skip the picker
