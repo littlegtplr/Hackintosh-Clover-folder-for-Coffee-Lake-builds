@@ -10,6 +10,14 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Comment</key>
+				<string>SSDT-PMC</string>
+				<key>Path</key>
+				<string>SSDT-PMC.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
 				<string>SSDT-EC-USBX</string>
 				<key>Path</key>
 				<string>SSDT-EC-USBX.aml</string>
@@ -134,7 +142,7 @@
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
-			<true/>
+			<false/>
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
@@ -667,7 +675,7 @@
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
-		<true/>
+		<false/>
 		<key>LegacySchema</key>
 		<dict>
 			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
