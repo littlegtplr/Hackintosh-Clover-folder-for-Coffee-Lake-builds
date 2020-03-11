@@ -10,6 +10,11 @@ Components used for this build:
 - ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+## 4 February 2020 Update:
+- kext updated to lastest
+- OpenCore updated to 0.5.5
+- macOS updated to 10.15.3
+
 ## 21 January 2020 Update:
 - Added SSDT-PMC.aml to OC/ACPI/ for native NVRAM support. Also disabled plist: Booter/DisableVariableWrite and NVRAM/LegacyEnable. Then deleted nvram.plist in EFI. [Reference](https://www.reddit.com/r/hackintosh/comments/erd2th/nvram_for_all_300_series_users_rejoice/)
 
