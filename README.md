@@ -12,7 +12,7 @@ Components used for this build:
 
 ## 11 March 2020 Update:
 - removed 'SMCBatteryManager.kext' and 'SMCLightSensor.kext' in 'Kernel/Add' and 'Kext'
-- added NIC MAC address to 'PlatformIndo/Generic/ROM', you will need to put in your own as well. See [PlatformInfo](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/intel-config.plist/coffee-lake#platforminfo)
+- added NIC MAC address to 'PlatformInfo/Generic/ROM', you will need to put in your own as well. See [PlatformInfo](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/intel-config.plist/coffee-lake#platforminfo)
 - used [OC-Tool](https://github.com/rusty-bits/OC-tool/wiki) checked the plist and added/removed quite a few fields due to OC updates. 
 - enabled Vault. Follow the procedure [here](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/security#Vault) to sign your EFI off
 - OpenCore updated to 0.5.6. 
