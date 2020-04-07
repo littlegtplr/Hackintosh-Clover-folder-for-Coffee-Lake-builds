@@ -10,6 +10,13 @@ Components used for this build:
 - ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+## 07 April 2020 Update:
+- removed CPUFriend.kext and CPUFriendDataProvider.kext
+- plist sanitary check against the latest OC manual/tutorial, various entries changed
+- kext and drivers are updated to the latest
+- new booting GUI is possible but I'm not a big fan so didn't implemented it in my update
+- macOS updated to 10.15.4
+
 ## 11 March 2020 Update:
 - removed 'SMCBatteryManager.kext' and 'SMCLightSensor.kext' in 'Kernel/Add' and 'Kext'
 - added NIC MAC address to 'PlatformInfo/Generic/ROM', you will need to put in your own as well. See [PlatformInfo](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/intel-config.plist/coffee-lake#platforminfo)
