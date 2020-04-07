@@ -14,7 +14,6 @@ Components used for this build:
 - removed CPUFriend.kext and CPUFriendDataProvider.kext
 - plist sanitary check against the latest OC manual/tutorial, various entries changed
 - kext and drivers are updated to the latest
-- new booting GUI is possible but I'm not a big fan so didn't implemented it in my update
 - macOS updated to 10.15.4
 
 ## 11 March 2020 Update:
