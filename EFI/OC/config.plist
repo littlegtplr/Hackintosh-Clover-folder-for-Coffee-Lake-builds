@@ -587,7 +587,7 @@
 			<key>ExposeSensitiveData</key>
 			<integer>3</integer>
 			<key>HaltLevel</key>
-			<real>2147483648</real>
+			<integer>2147483648</integer>
 			<key>ScanPolicy</key>
 			<integer>68867</integer>
 			<key>Vault</key>
