@@ -10,6 +10,22 @@ Components used for this build:
 - ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+## 05 May 2020 Update:
+- OpenCore updated to 0.5.8
+- [Native CPU Power Management](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/pm.html) enabled
+  - Added OC/ACPI/SSDT-PLUG.aml, CPUFriend.kext and CPUFriendDataProvider.kext
+  - Lifted [BIOS CFG Lock](https://dortania.github.io/OpenCore-Desktop-Guide/extras/msr-lock.html)
+  - Disabled Kernel -> Quirks:
+    - AppleCpuPmCfgLock
+    - AppleXcpmCfgLock
+    - If your BIOS is CFG Lock (pretty likely), these two quirks will need to be Enabled otherwise IT WON'T BOOT!
+- Drivers and kexts updated to the latest
+- Sanitary changes against the latest sample.plist and [OC tutorial](https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html)
+  - Removed EFI/OC/Drivers/ApfsDriverLoader.efi, as this is part of OC
+  - Removed Kernel/Patch entries
+  - Removed XHCI-300-series-injector.kext
+- Vault set to Optional  
+
 ## 07 April 2020 Update:
 - removed CPUFriend.kext and CPUFriendDataProvider.kext
 - plist sanitary check against the latest OC manual/tutorial, various entries changed
