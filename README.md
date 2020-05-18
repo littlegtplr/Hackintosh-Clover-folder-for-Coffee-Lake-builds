@@ -25,7 +25,7 @@ Components used for this build:
 - Drivers and kexts updated to the latest
 - Sanitary changes against the latest sample.plist and [OC tutorial](https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html)
   - Removed EFI/OC/Drivers/ApfsDriverLoader.efi, as this is part of OC
-  - Removed Kernel/Patch entries
+  - Removed ACPI/Patch entries
   - Removed XHCI-300-series-injector.kext
 - Vault set to Optional  
 
