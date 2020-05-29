@@ -11,7 +11,7 @@ Components used for this build:
 - Sapphire - Radeon RX 580 8 GB PULSE
 
 ## 13 May 2020 Update:
-- BIOS/ has a BIOS version offers CFG Lock option to lift up CFG Lock, from Gigabyte customer services. It should work but use at your own discretion. 
+- In BIOS/ there is a BIOS version offers CFG Lock option to lift up CFG Lock, from Gigabyte customer services. It should work but use at your own discretion. 
 
 ## 05 May 2020 Update:
 - OpenCore updated to 0.5.8
