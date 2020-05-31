@@ -10,6 +10,8 @@ Components used for this build:
 - ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
 
+## To start, use the [OpenCore Vanilla Guide](https://dortania.github.io/OpenCore-Desktop-Guide/) and ask questions on [reddit/hackintosh](https://www.reddit.com/r/hackintosh/) if you encounter any issue. 
+
 ## 13 May 2020 Update:
 - In BIOS/ there is a BIOS version offers CFG Lock option to lift up CFG Lock, from Gigabyte customer services. It should work but use at your own discretion. 
 
