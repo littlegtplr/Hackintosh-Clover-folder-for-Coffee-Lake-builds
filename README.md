@@ -12,6 +12,11 @@ Components used for this build:
 
 ## To start, use the [OpenCore Vanilla Guide](https://dortania.github.io/OpenCore-Desktop-Guide/) and ask questions on [reddit/hackintosh](https://www.reddit.com/r/hackintosh/) if you encounter any issue. 
 
+## 1 Jun 2020 Update:
+- OC updated to 0.5.9
+- macOS 10.15.5
+- kexts updated
+
 ## 13 May 2020 Update:
 - In BIOS/ there is a BIOS version offers CFG Lock option to lift up CFG Lock, from Gigabyte customer services. It should work but use at your own discretion. 
 
