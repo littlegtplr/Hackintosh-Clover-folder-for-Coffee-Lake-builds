@@ -12,6 +12,19 @@ Components used for this build:
 
 ## To start, use the [OpenCore Vanilla Guide](https://dortania.github.io/OpenCore-Desktop-Guide/) and ask questions on [reddit/hackintosh](https://www.reddit.com/r/hackintosh/) if you encounter any issue. 
 
+## 20 Jun 2020 Update:
+- removed XHCI-300-series-injector.kext
+- SSDT-UIAC update: reinstated the USB 3 capatability on one of the front panel USB slots, while the back panel two USB 3.1 Gen 2 slots (the red ones, USB-A and USB-C) are USB 3 only. (more details below)
+- The USB layout of the mobo are listed as below, where disabled devices are within parathesis. 
+  - front panel: left HS03/SS03, right HS04/SS04
+  - back panel
+    - top two (black), left to right: HS9, HS10
+    - middle two (blue), HS5/SS5, HS6/SS6
+    - USB 3.1 Gen 2 (red), USB-C (HS02)/SS02, USB-A (HS01)/SS01
+    - bottom (black), HS11, HS14
+  - internal: HS07
+- references: see [the OpenCore guide](https://dortania.github.io/USB-Map-Guide/intel-mapping/intel.html) and [A Beginner's Guide to Creating a Custom USB SSDT](https://www.tonymacx86.com/threads/a-beginners-guide-to-creating-a-custom-usb-ssdt.272505/)
+
 ## 1 Jun 2020 Update:
 - OC updated to 0.5.9
 - macOS 10.15.5
