@@ -12,6 +12,11 @@ Components used for this build:
 
 ## To start, use the [OpenCore Vanilla Guide](https://dortania.github.io/OpenCore-Desktop-Guide/) and ask questions on [reddit/hackintosh](https://www.reddit.com/r/hackintosh/) if you encounter any issue. 
 
+## 05 Aug 2020 Update:
+- OpenCore 0.60
+- macOS 10.15.6
+- kext updates
+
 ## 20 Jun 2020 Update:
 - removed XHCI-300-series-injector.kext
 - SSDT-UIAC update: reinstated the USB 3 capatability on one of the front panel USB slots, while the back panel two USB 3.1 Gen 2 slots (the red ones, USB-A and USB-C) are USB 3 only. (more details below)
