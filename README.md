@@ -12,6 +12,11 @@ Components used for this build:
 
 ## To start, use the [OpenCore Vanilla Guide](https://dortania.github.io/OpenCore-Desktop-Guide/) and ask questions on [reddit/hackintosh](https://www.reddit.com/r/hackintosh/) if you encounter any issue. 
 
+## 07 Sep 2020 Update:
+- OpenCore 0.61
+- kext updates
+- Canopy enabled
+
 ## 05 Aug 2020 Update:
 - OpenCore 0.60
 - macOS 10.15.6
