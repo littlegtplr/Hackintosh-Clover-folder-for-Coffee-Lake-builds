@@ -820,6 +820,8 @@
 			<false/>
 			<key>DirectGopRendering</key>
 			<false/>
+			<key>ForceResolution</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
