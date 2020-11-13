@@ -238,13 +238,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>IntelMausiEthernet.kext</string>
+				<string>IntelMausi.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelMausiEthernet</string>
+				<string>Contents/MacOS/IntelMausi</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -504,6 +504,8 @@
 			<false/>
 			<key>LegacyCommpage</key>
 			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -578,6 +580,8 @@
 			<string>Signed</string>
 			<key>EnablePassword</key>
 			<false/>
+			<key>SecureBootModel</key>
+			<string>Default</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -671,6 +675,8 @@
 			<string></string>
 			<key>SystemUUID</key>
 			<string></string>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
