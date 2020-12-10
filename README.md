@@ -6,6 +6,7 @@ Components used for this build:
 - Intel - Core i5-8500 3GHz 6-Core Processor
 - Gigabyte - B360 AORUS Gaming 3 WIFI ATX LGA1151 Motherboard
 - Corsair - Vengeance LPX 32GB (4 x 8GB) DDR4-3000 Memory 
+- WD Blue SN550 1TB M.2 Pcie NVMe SSD
 - Crucial - MX500 500GB 2.5" Solid State Drive 
 - ~~- EVGA - GeForce GTX 1060 6GB 6GB SSC GAMING Video Card~~ 
 - Sapphire - Radeon RX 580 8 GB PULSE
