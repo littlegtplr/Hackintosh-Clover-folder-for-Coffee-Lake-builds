@@ -12,6 +12,10 @@ Components used for this build:
 
 ## To start, use the [OpenCore Vanilla Guide](https://dortania.github.io/OpenCore-Desktop-Guide/) and ask questions on [reddit/hackintosh](https://www.reddit.com/r/hackintosh/) if you encounter any issue. 
 
+## 10 Dec 2020 Update:
+- OpenCore 0.64
+- kext update
+
 ## 13 Nov 2020 Update:
 - Big Sur 11.0.1
 - A few plist property changed for Big Sur. See [What's new in macOS 11, Big Sur!](https://www.reddit.com/r/hackintosh/comments/jsziec/whats_new_in_macos_11_big_sur/). 
