@@ -13,6 +13,10 @@ Components used for this build:
 
 ## To start, use the [OpenCore Vanilla Guide](https://dortania.github.io/OpenCore-Desktop-Guide/) and ask questions on [reddit/hackintosh](https://www.reddit.com/r/hackintosh/) if you encounter any issue. 
 
+## 05 Jan 2021 Update:
+- OpenCore 0.65
+- kext update
+
 ## 10 Dec 2020 Update:
 - OpenCore 0.64
 - kext update
